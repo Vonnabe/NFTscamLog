@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        Feedback
+    </title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .main-box {
+            background-image: url(img/micro_carbon.png);
+        }
+
+        input [type=text] {
+            width: 95%;
+            margin: 8px 0;
+            padding: 12px 20px;
+            box-sizing: border-box;
+        }
+
+        select {
+            width: 98%;
+            padding: 15px;
+            margin: 10px;
+            border: 2px solid rgb(122, 114, 114);
+            border-radius: 5px;
+        }
+
+        input[type=submit] {
+            width: 98%;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            border: rgb(156, 153, 153);
+            background-color: rgb(67, 68, 73);
+            color: white;
+        }
+
+        input[type=submit]:hover {
+            background-color: rgb(43, 43, 43);
+            color: white;
+        }
+
+        textarea {
+            width: 93%;
+            height: 150px;
+            padding: 12px 20px;
+            margin: 12px;
+            border: 2px solid;
+            border-radius: 5px;
+            background-color: rgb(255, 255, 255);
+            resize: none;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header-text">
+        <h1>
+            The NFT scam log!
+        </h1>
+    </div>
+
+    <div class="menu-box">
+        <lu class="menu">
+            <li class="button"> <a href="index.html">Home</a></li>
+
+            <li class="button">
+                <a href="earth-two.html">Earth 2</a>
+            </li>
+            <li class="button">
+                <a href="pixelmon.html">Pixelmon</a>
+            </li>
+            <li class="button">
+                <a href="azuki.html">Azuki NFTs</a>
+            </li>
+            <li class="button">
+                <a href="cryptoland.html">Cryptoland</a>
+            </li>
+            <li class="button">
+                <a href="yt.html">Youtuber Against</a>
+            </li>
+            <li class="button">
+                <a href="about-us.html">About us</a>
+            </li>
+            <li class="button">
+                <a class="active" href="feed.html">Feedback Form</a>
+            </li>
+            </lu>
+    </div>
+
+    <div class="main-container">
+        <h3>Give Us Feedback</h3>
+        <hr>
+        <p>In case I made mistakes on my documentation of the NFT scams on this website, or you believe
+            that there are other NFTs I should include on this website, please give us feedback:
+            <br>
+        <form>
+            <label for="user">Username:</label>
+            <br>
+            <input type="text" id="user" name="user" placeholder="Username...">
+            <br>
+            <br>
+            <br>
+            <label for="reason">Select option:</label>
+            <select id="reason" name="Reason:">
+                <option value="w-feed">Website Feedback</option>
+                <option value="f-publication">Wrong publication</option>
+                <option value="f-news">NFTs news</option>
+                <option value="f-update">Changes/Updates on current NFTs</option>
+                <option value="f-company">New NFT scam Company</option>
+            </select>
+
+            <label for="description"></label>
+            <textarea placeholder="Description..."></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+
+        
+    </div>
+
+    <div class="side-img">
+        <img src="img/side-img.jpg">
+    </div>
+
+    <footer>
+        <p>
+            This is a project for the subject WEB TECHNOLOGIES (CN4003_1) created by Pavlos Koullolli.
+        </p>
+    </footer>
+
+</body>
