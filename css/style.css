@@ -1,0 +1,112 @@
+h1 {
+    text-align: center;
+}
+
+.header-text {
+    background-color: #02102b;
+    background-image: url(../img/bg-top3.jpg);
+    padding: 25px 25px;
+    border-bottom: 6px solid #1a0008;
+    text-transform: uppercase;
+}
+
+body {
+    background-color: #01173f;
+    background-image: url(../img/ror1.jpg);
+    color: #FFF;
+    font-family: sans-serif;
+    margin: 0;
+
+}
+
+.menu {
+    text-align: center;
+    font-size: large;
+}
+
+.menu-box {
+
+    background-color: #01173f;
+    width: 150px;
+    border: solid 6px black;
+    float: left;
+    margin-right: 5%;
+    margin-top: 30px;
+
+}
+
+
+.menu-box a {
+
+    background-color: #01173f;
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+}
+
+
+
+.menu-box a:visited {
+    color: white;
+
+}
+
+.menu-box a:hover {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: #010f29;
+}
+
+.button a:active {
+    background-color: #052972;
+    color: white; 
+}
+
+.button {
+    border-bottom: 2px solid black;
+    list-style-type: none;
+}
+
+.button a.active {
+    background-color: #10357a;
+    color: white;
+}
+
+.main-container {
+    background-image: url(../img/micro_carbon.png);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border: 2px solid black;
+    padding: 5px 10px 10px 10px;
+    float: left;
+}
+
+.main-container img {
+    float: left;
+    margin-right: 10px;
+}
+
+.side-img {
+    width: 15%;
+    margin-top: 35px;
+    padding-right: 45px;
+    margin-bottom: -25px;
+    margin-left: 95px;
+    float: left;
+}
+
+footer {
+    background-image: url(../img/bg-top3.jpg);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: left;
+    background-color: rgb(5, 5, 112);
+    text-align: center;
+    width: 100%;
+}
